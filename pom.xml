@@ -12,7 +12,14 @@
         <module>app1</module>
         <module>app2</module>
         <module>identify-manager</module>
+        <module>shared</module>
     </modules>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.5</version>
+        </dependency>
+    </dependencies>
 
 </project>
